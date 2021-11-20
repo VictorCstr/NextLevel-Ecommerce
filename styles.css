@@ -17,6 +17,7 @@ ul{
 
 body{
     background: url(assets/fundo.jpg);
+    height: 100%;
 }
 
 
@@ -136,4 +137,48 @@ footer ul{
 
 footer li{
     padding: 20px;
+}
+
+
+/*----------------------------------TELA DE LOGIN----------------------------*/
+
+#login{
+    width: 500px;
+    height: 300px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius: 10px ;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 230px;
+    background-color: rgba(255,255,255,0.3);
+    text-align: center;
+}
+
+#container img {
+    width: 280px;
+    height: 80px;
+    margin-top: -40px;
+    margin-left: 20px;
+    
+}
+
+#login input{
+    height: 40px;
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding-left: 20px;
+    border: none;
+}
+
+#login input.submit{
+    color: #fff;
+    background-color: #f8444a;
+    padding: 5px 20px;
+    width: 90%;
+    background: -webkit-linear-gradient(to bottom, #faa600, #f68a00);
+    background: -moz-linear-gradient(to bottom, #faa600, #f68a00);
+    background: -o-linear-gradient(to bottom, #faa600, #f68a00);
 }
