@@ -1,24 +1,83 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:Arial;
     box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+
+body{
+    background: url(assets/fundo.jpg);
 }
 
 
-#container{
-    width: 990px;
+.container{
+    width: 1080px;
     margin: 0 auto;
 }
 
-#subheader{
-    width: 100%;
-    background: #000;
-    color: #fff;
-    height: 40px;
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F81E27;
 }
 
-#header{
+header input{
+    border-radius: 10px 0px 0px 10px;
+    width: 400px;
     height: 50px;
-    background-color: blue;
+    padding: 10px;
+    border: 1px solid #F81E27;
+}
+
+#links-header a{
+    padding: 5px;
+    color: #F81E27;
+}
+
+#lupa{
+    background-color: #F81E27;
+    padding: 17px;
+    margin-left: -5px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#navigate-bar{
+    background:#f8444a;
+}
+
+#navigate-bar ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+#navigate-bar li{
+    padding: 16px 42.7px;
+    border: 1px solid #000;
+}
+
+/*--------------------------------------------------------------------------------------- HEADER ACABA AQUI,  MAIN COMEÇA EM BAIXO -------------------*/
+
+#banner img{
+    margin: 10px 0px;
+    width: 1903px;
+    max-height: 800px;
+}
+
+section h2{
+    background: #f8444a;
+    width: 270px;
+    padding: 5px;
+}
+
+.img-section{
+    margin-top: 10px;
+    width: 266px;
 }

@@ -10,8 +10,10 @@
     <!--CSS-->
     <link rel="stylesheet" type="text/css" href="styles.css">
 
-    <!--Font Awesome Icons-->
-    <script src="https://kit.fontawesome.com/3291a1ab02.js" crossorigin="anonymous"></script>
+    <!--Icones Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+
+    <link rel="icon" href="assets/logo.svg">
 
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
@@ -20,22 +22,57 @@
     <title>Next Level</title>
 </head>
 <body>
+    <div class="container">
         <header>
-            <div id="subheader">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis amet placeat excepturi non.
-
-
+        <h1><a href=""><img src="assets/logo.svg" width="300"></a></h1>
+            <div>
+                <input type="search" name="pesquisa" id="pesquisa" placeholder="O que você procura?" autofocus>
+                <a href=""><i class="bi bi-search" id="lupa"></i></a>
             </div>
-
-
-
-
-
-
-
-            <div id="header">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dicta explicabo perferendis.
+            <div  id="links-header">
+                <a href=""><i class="bi bi-person links">Minha conta</i></a>
+                <a href=""><i class="bi bi-cart2 links">Meu carrinho</i></a>
             </div>
         </header>
+    </div>
+        <nav id="navigate-bar"> <!---Barra de navegação abaixo do cabeçalho-->
+            <div class="container">
+            <ul>
+                <a href=""><li>Computadores</li></a>
+                <a href=""><li>Hardwares</li></a>
+                <a href=""><li>Periféricos</li></a>
+                <a href=""><li>Monitores</li></a>
+                <a href=""><li>Cadeira Gamer</li></a>
+                <a href=""><li>Roteadores</li></a>
+            </ul>
+            </div>
+        </nav>
+    <main>
+        <figure id="banner">
+            <a href=""><img src="assets/banner-black.jpg"></a>
+        </figure>
+        <div class="container">
+           
+            <section>
+                <h2>Produtos em destaque</h2>
+                <a href=""><img class=img-section src="assets/pcgaming1.jpg"></a>
+                <a href=""><img class=img-section src="assets/pcgaming2.jpg"></a>
+                <a href=""><img class=img-section src="assets/cadeiragaming1.jpg"></a>
+                <a href=""><img class=img-section src="assets/monitor1.jpg"></a>
+            </section>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+    
 </body>
 </html>
