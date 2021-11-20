@@ -11,13 +11,17 @@ a{
     font-weight: 700;
 }
 
+ul{
+ list-style-type: none;
+}
+
 body{
     background: url(assets/fundo.jpg);
 }
 
 
 .container{
-    width: 1080px;
+    max-width: 1080px;
     margin: 0 auto;
 }
 
@@ -55,19 +59,18 @@ header input{
 #navigate-bar ul{
     display: flex;
     flex-direction: row;
-    list-style-type: none;
 }
 
 #navigate-bar li{
     padding: 16px 42.7px;
-    border: 1px solid #000;
+    
 }
 
 /*--------------------------------------------------------------------------------------- HEADER ACABA AQUI,  MAIN COMEÇA EM BAIXO -------------------*/
 
 #banner img{
     margin: 10px 0px;
-    width: 1903px;
+    max-width: 1903px;
     max-height: 800px;
 }
 
@@ -77,7 +80,60 @@ section h2{
     padding: 5px;
 }
 
+
 .img-section{
-    margin-top: 10px;
-    width: 266px;
+    width: 250px;
+}
+
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produtos div{
+    border: 3px solid rgba(128, 128, 128, 0.3);
+    max-width: 257px;
+    margin: 5px;
+}
+
+.produtos p{
+    color: #F81E27;
+    font-weight: bold;
+}
+
+.produtos h3, .produtos p{
+    padding: 10px;
+}
+
+.button-cart{
+    width: 100%;
+    height: 5vh;
+}
+
+/*---------------------------------- BANNER DEPOIS DO PAINEL PRINCIPAL---------*/
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner-end{
+margin: 20px 0px;
+}
+
+#banner-end img{
+    width: 1902px;
+    height: 700px;
+}
+
+/*------------------------------------Rodapé--------------------*/
+
+footer ul{
+    display: flex;
+    flex-direction: row;   
+}
+
+footer li{
+    padding: 20px;
 }
