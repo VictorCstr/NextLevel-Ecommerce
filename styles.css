@@ -80,6 +80,7 @@ section h2{
     background: #f8444a;
     width: 270px;
     padding: 5px;
+    margin-bottom: 20px;
 }
 
 
@@ -194,4 +195,16 @@ footer li{
 
 .flex-quemsomos li{
     margin: 10px;
+}
+
+
+.footerbaixo{
+    margin-bottom: 100px;
+}
+
+
+/*----------------------------------PAGINA DE PRODUTO----------------------------*/
+
+.productpage-img{
+    width: 500px;
 }
