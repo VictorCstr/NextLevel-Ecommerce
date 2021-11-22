@@ -56,6 +56,7 @@ header input{
 
 #navigate-bar{
     background:#f8444a;
+    margin-bottom: 10px;
 }
 
 #navigate-bar ul{
@@ -65,12 +66,12 @@ header input{
 
 #navigate-bar li{
     padding: 16px 42.7px;  
+    font-size: 1em;
 }
 
 /*--------------------------------------------------------------------------------------- HEADER ACABA AQUI,  MAIN COMEÇA EM BAIXO -------------------*/
 
 #banner img{
-    margin: 10px 0px;
     max-width: 1903px;
     max-height: 800px;
 }
@@ -181,4 +182,16 @@ footer li{
     background: -webkit-linear-gradient(to bottom, #faa600, #f68a00);
     background: -moz-linear-gradient(to bottom, #faa600, #f68a00);
     background: -o-linear-gradient(to bottom, #faa600, #f68a00);
+}
+
+
+/*----------------------------------QUEM SOMOS----------------------------*/
+
+.flex-quemsomos{
+    display: flex;
+    margin-top: 30px;
+}
+
+.flex-quemsomos li{
+    margin: 10px;
 }
