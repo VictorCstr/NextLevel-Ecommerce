@@ -125,6 +125,10 @@ section h2{
     margin: 5px;
 }
 
+#black .produtos div{
+    margin: 0 auto;
+}
+
 .produtos p{
     color: #F81E27;
     font-weight: bold;
