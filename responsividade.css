@@ -1,0 +1,92 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 765px) {
+    #logo img{
+        width: 200px;
+    }
+
+    header input{
+        width: 200px;
+    }
+
+    #links-header a{
+        font-size: 1em;
+        display: flex;
+    }
+
+    #navigate-bar ul{
+       flex-wrap: wrap;
+    }
+
+    #navigate-bar li{
+       font-size: 1.3em;
+       padding: 15px;
+    }
+
+    .produtos div{
+        max-width: 290px;
+    }
+
+    .img-section{
+        width: 280px;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    header input{
+        width: 250px;
+     }
+
+    #links-header a{
+        display: flex;
+    }
+
+    #navigate-bar li{ 
+        font-size: 1.2em;
+        padding: 16px 14px;
+    }
+
+    #banner img{
+        height: 450px;
+    }
+
+    .produtos div{
+        max-width: 360px;
+    }
+
+    .img-section{
+        width: 350px;
+    }
+
+   
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    header input{
+       width: 300px;
+    }
+
+    #navigate-bar li{ 
+        font-size: 1.3em;
+        padding: 16px 30px;
+    }
+
+    .produtos div{
+        max-width: 320px;
+    }
+
+    .img-section{
+        width: 313px;
+    }
+
+   
+
+}
+
