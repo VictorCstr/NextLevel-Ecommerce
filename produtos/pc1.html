@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, shrink-to-fit=no">
+
+    <!--Normalize-->
+    <link rel="stylesheet" type="text/css" href="../normalize/normalize.css">
+
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+
+    <!--Icones Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+
+    <link rel="icon" href="../assets/logo.svg">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
+    <![endif]-->
+
+    <title>Next Level</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+        <h1><a href="../index.html"><img src="../assets/logo.svg" width="300"></a></h1>
+            <div>
+                <input type="search" name="pesquisa" id="pesquisa" placeholder="O que você procura?" autofocus>
+                <a href=""><i class="bi bi-search" id="lupa"></i></a>
+            </div>
+            <div  id="links-header">
+                <a href="../minha-conta.html"><i class="bi bi-person links"> Minha conta</i></a>
+                <a href=""><i class="bi bi-cart2 links"> Meu carrinho</i></a>
+            </div>
+        </header>
+    </div>
+        <nav id="navigate-bar"> <!---Barra de navegação abaixo do cabeçalho-->
+            <div class="container">
+            <ul>
+                <a href="../filtro-pagina/computadores.html"><li>Computadores</li></a>
+                <a href="../filtro-pagina/hardware.html"><li>Hardwares</li></a>
+                <a href="../filtro-pagina/perifericos.html"><li>Periféricos</li></a>
+                <a href="../filtro-pagina/monitores.html"><li>Monitores</li></a>
+                <a href="../filtro-pagina/cadeiras.html"><li>Cadeira Gamer</li></a>
+                <a href="../filtro-pagina/roteadores.html"><li>Roteadores</li></a>
+            </ul>
+            </div>
+        </nav>
+        <main class="container flex-quemsomos">
+            <section  id="column">
+            <div>
+            <img src="../assets/pcgaming1.jpg" id="productpage-img"> 
+            </div>   
+            <div>
+                <img src="../assets/pcgaming1foto2.jpg" class="productsecundary">
+                <img src="../assets/pcgaming1foto3.jpg" class="productsecundary">
+                <img src="../assets/pcgaming1foto4.jpg" class="productsecundary">
+                <img src="../assets/pcgaming1foto5.jpg" class="productsecundary">
+            </div>   
+            </section>
+           
+            <div id="product-painel">
+                <h2>Pc Ryzen 5 3400g, 16gb, SSD 480GB</h2>
+                <h3>Cod. Referência: 005</h3>
+                <p>O Processador Ryzen 5 3400G com 3.7GHz é uma excelente opção para quem que um bom custo benefício, com os gráficos integrados Radeon RX Vega 11 Graphics tenha um ótimo desempenho na sua Gameplay. </p>
+                <i class="bi bi-upc" id="vista">R$2.969,10 a vista no boleto</i>
+                <i class="bi bi-credit-card" id="prazo"> R$3.299,00 no cartão em até 10x sem juros</i>
+                <div id="frete">
+                    <p>Número de Unidades:</p>
+                    <input type="number" name="quantity" id="quantity" min="1" max="5" value="1">
+                    <p>Calcule o frete:</p>
+                    <input type="number" name="cep" id="cep" min="8" placeholder="Insira seu cep">
+                    <input type="submit" id="calc-cep" name="calc-cep" value="Consultar">
+                </div>
+                <button class="button-cart">
+                    <a href="../produtos/cadeira1.html"><i class="bi bi-cart"> Adicionar ao carrinho</i></a>
+                </button>
+               
+             
+            </div>       
+        </main>
+        <section class="container description">    
+            <h3>Descrição do produto</h3>
+            <h4>Pc Ryzen 5 3400g, 16gb, SSD 480GB, Fonte 500w</h4>        
+            <ul>
+                <li>Especificações:</li>  
+                <li>- AMD Ryzen 5 3400G  AM4 Radeon RX Vega 11 Graphics  </li>   
+                <li>- Memória RAM: 2 pentes de 8GB= 16GB 3000MHZ XPG  </li>           
+                <li>- SSD 480GB ADATA</li>            
+                <li>- Placa mãe A320M Asus Prime</li>           
+                <li>- Fonte 500W VTC COUGAR</li>            
+                <li>- Gabinete RGB com 1 fan led inclusa</li>            
+                <li>- Vidro temperado frontal e lateral</li>            
+                <li>- 2x conexões 3.0   </li>            
+                <li>- 2x conexões 2.0</li>      
+                <li>- Windows 10 Pro</li>   
+                <li>- Dimensão: 59 x 36 x 58cm  </li>         
+            </ul>          
+            <ul>  
+                <li> Conteúdo da embalagem:     </li>
+                <li> - Computador Gamer    </li>  
+                <li> - Fans RGb inclusos no gabinete</li> 
+                <li> - Fonte     </li>  
+            </ul>     
+        </section>
+            <footer>
+                <div class="container flex">
+                    <h1><a href="../index.html"><img src="../assets/logo.svg" width="250"></a></h1>
+                    <p>Todos os direitos reservados | Made by: <cite>Victor Castro | 2021</cite></p>
+                    <ul>
+                        <a href="../quem-somos.html"><li>Sobre a Next</li></a>
+                        <a href="https://www.linkedin.com/in/victorcastr/" target="_blank"><li>Linkedin</li></a>
+                        <a href="https://github.com/VictorCstr" target="_blank"><li>GitHub</li></a>
+                    </ul>
+                </div>
+            </footer>
+</body>
+</html>

@@ -30,7 +30,7 @@
                 <a href=""><i class="bi bi-search" id="lupa"></i></a>
             </div>
             <div  id="links-header">
-                <a href=""><i class="bi bi-person links">Minha conta</i></a>
+                <a href="minha-conta.html"><i class="bi bi-person links">Minha conta</i></a>
                 <a href=""><i class="bi bi-cart2 links">Meu carrinho</i></a>
             </div>
         </header>
@@ -75,13 +75,31 @@
                 </div>
             </div>
         </main>
-
-
-
-
-
-
-
+        <section class="container">
+            <h1>Contato</h1>
+            <h3>Redes sociais:</h3>
+            <a href=""><i class="bi bi-whatsapp" id="wapp"></i></a>
+            <a href=""><i class="bi bi-instagram" id="inst"></i></a>
+            <h3 id="form-title">Caso prefira, preencha diretamente o formulário abaixo:</h3>
+            <form id="form-contato" method="post">
+                <fieldset>
+                    <legend>Detalhes de contato</legend>
+                    <label for="nome-contato">Nome:</label>
+                    <input type="text" name="nome-contato" id="nome-contato"  placeholder="Seu nome" required>
+                    <label for="email-contato">Email:</label>
+                    <input type="text" name="email-contato" id="email-contato" placeholder="seuemail@email.com.br" required>
+                    <label for="phone-contato">Enter your phone number:</label>
+                    <input type="tel" id="phone-contato" name="phone-contato"  maxlength="11" required placeholder="Ex: (00)0000-0000">
+                    <label for="comentario-contato">Mensagem:</label>
+                    <textarea name="comentario-contato" id="comentario-contato" placeholder="Tente explicar o que você precisa com o máximo de informações possíveis"></textarea>
+                    <label for="arquivo">Se precisar nos envie uma foto do problema (JPG):</label><br>
+                    <input type="file" id="arquivo-contato" name="arquivo-contato" accept="jpg">  <br><br>
+                    <input type="submit" value="Enviar questão" id="submit-contato">
+                    <p>Vamos te responder em um prazo de <strong>até 24 horas!</strong></p>
+                </fieldset>
+            </form>
+            
+        </section>
 
             <footer>
                 <div class="container flex">
@@ -89,8 +107,8 @@
                     <p>Todos os direitos reservados. Feito por: <cite>Victor Castro</cite></p>
                     <ul>
                         <a href="quem-somos.html"><li>Sobre a Next</li></a>
-                        <a href="https://www.linkedin.com/in/victorcastr/"><li>Linkedin</li></a>
-                        <a href="https://github.com/VictorCstr"><li>GitHub</li></a>
+                        <a href="https://www.linkedin.com/in/victorcastr/" target="_blank"><li>Linkedin</li></a>
+                        <a href="https://github.com/VictorCstr" target="_blank"><li>GitHub</li></a>
                     </ul>
                 </div>
             </footer>

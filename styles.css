@@ -235,11 +235,55 @@ footer li{
     margin-bottom: 100px;
 }
 
+#form-title{
+    margin: 30px 0px;
+}
+
+#form-contato label{
+    display: block;
+}
+
+
+#comentario-contato{
+    width: 600px;
+    height: 20vh;
+}
+
+#submit-contato{
+    height: 5vh;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+#wapp{
+    color: rgb(25, 218, 25);
+    font-size: 80px;
+}
+
+#inst{
+    font-size: 80px;
+    color: #F30183;
+}
 
 /*----------------------------------PAGINA DE PRODUTO----------------------------*/
 
-.productpage-img{
+#column{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#productpage-img{
     width: 500px;
+}
+
+.productsecundary{
+    width: 130px;
+}
+
+.productsecundary:hover{
+    width: 230px;
+    transition: 1s;
 }
 
 #product-painel{
@@ -255,8 +299,8 @@ footer li{
 }
 
 #product-painel h3{
-    font-size: 0.7em;  
-    margin-top: -30px;
+    font-size: 0.8em;  
+    margin-top: -20px;
 }
 
 #product-painel p{
@@ -270,11 +314,12 @@ footer li{
 
 #prazo{
     color: #F81E27;
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 
 .description{
     margin-top: 30px;
+    padding-top: 30px;
     border-top: 1px solid gray;
 }
 
@@ -282,6 +327,29 @@ footer li{
     margin-top: 20px;
 }
 
-.frete{
+#frete{
     display: flex;
+}
+
+#frete p{
+    font-size: 0.9em;
+}
+
+#cep{
+    width: 140px;
+    height: 30px;
+    margin: 0px 10px;
+    border: 1px solid #F81E27;
+}
+
+#calc-cep{
+    border: 1px solid #F81E27;
+    padding: 5px;
+    color: #000;
+}
+
+#quantity{
+    border: 1px solid #F81E27;
+    margin: 0px 10px;
+    width: 30px;
 }

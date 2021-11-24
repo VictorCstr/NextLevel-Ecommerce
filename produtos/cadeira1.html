@@ -48,18 +48,23 @@
             </div>
         </nav>
         <main class="container flex-quemsomos">
-            <img src="../assets/cadeiragaming1.jpg" class="productpage-img">
+            <div>
+            <img src="../assets/cadeiragaming1.jpg" id="productpage-img">       
+            <img src="../assets/cadeiragaming2foto.jpg" class="productsecundary">
+            <img src="../assets/cadeiragaming3foto.jpg" class="productsecundary">
+            </div>
             <div id="product-painel">
                 <h2>Cadeira Gamer Limited Edition Preta</h2>
                 <h3>Cod. Referência: 001</h3>
                 <p>A Cadeira Gamer Husky Gaming Snow proporciona alto conforto e qualidade para as melhores horas do seu dia! Tudo isso aliado a um ótimo custo benefício. </p>
                 <i class="bi bi-upc" id="vista">R$513,85 a vista no boleto</i>
                 <i class="bi bi-credit-card" id="prazo"> R$570,95 no cartão em até 10x sem juros</i>
-                <div class="frete">
-                    <p>Número de Unidades</p>
-                    <input type="number" id="quantity" name="quantity" min="1" max="5" value="1">
-                    <p>Calcule o frete:<p>
-                    <input type="number" min="8" placeholder="Insira seu cep aqui">
+                <div id="frete">
+                    <p>Número de Unidades:</p>
+                    <input type="number" name="quantity" id="quantity" min="1" max="5" value="1">
+                    <p>Calcule o frete:</p>
+                    <input type="number" name="cep" id="cep" min="8" placeholder="Insira seu cep">
+                    <input type="submit" id="calc-cep" name="calc-cep" value="Consultar">
                 </div>
                 <button class="button-cart">
                     <a href="../produtos/cadeira1.html"><i class="bi bi-cart"> Adicionar ao carrinho</i></a>
