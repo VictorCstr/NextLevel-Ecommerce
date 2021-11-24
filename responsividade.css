@@ -89,7 +89,7 @@
 
     .produtos div{
         max-width: 315px;
-      
+        margin: 0 auto;
     }
 
     .description{

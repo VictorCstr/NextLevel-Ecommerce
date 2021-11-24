@@ -164,7 +164,7 @@ section h2{
 }
 
 .button-cart:hover{
-    background-color: #000;
+    background-color: rgb(134, 123, 123);
     transition: 2s;
 }
 
