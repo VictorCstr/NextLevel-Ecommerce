@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Helvetica;
 }
 
 a{
@@ -18,8 +17,19 @@ ul{
 body{
     background: url(assets/fundo.jpg);
     height: 100%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande" , sans-serif;
 }
 
+@keyframes logo{
+    0% {left:0px}
+    50%{left:-20px}
+    100%{left:0px}
+}
+
+#logo:hover{
+    position: relative;
+    animation: logo 1.2s linear 0s infinite;
+}
 
 .container{
     max-width: 1080px;
@@ -52,8 +62,10 @@ header input{
 }
 
 #lupa{
-    background-color: #F81E27;
-    padding: 17px;
+    background-color: #e4383e;
+    opacity: 0.9;
+    padding: 13px;
+    font-weight: bold;
     margin-left: -5px;
     border-radius: 0px 10px 10px 0px;
 }
@@ -71,6 +83,7 @@ header input{
 #navigate-bar li{
     padding: 16px 42.7px;  
     font-size: 1em;
+    
 }
 
 #navigate-bar a:hover{
@@ -85,8 +98,9 @@ header input{
 }
 
 section h2{
-    background: #f8444a;
-    width: 270px;
+    margin-top: 30px;
+    border-bottom: 2px solid #f8444a;
+    width: 300px;
     padding: 5px;
     margin-bottom: 20px;
 }
@@ -95,6 +109,7 @@ section h2{
 .img-section{
     width: 250px;
 }
+
 
 .produtos{
     display: flex;
@@ -113,7 +128,7 @@ section h2{
 }
 
 .vista-initial{
-    font-size: 1.7em;
+    font-size: 1.6em;
 }
 
 .prazo-initial{
@@ -282,7 +297,7 @@ footer li{
 }
 
 .productsecundary:hover{
-    width: 230px;
+    width: 229px;
     transition: 1s;
 }
 
@@ -300,11 +315,11 @@ footer li{
 
 #product-painel h3{
     font-size: 0.8em;  
-    margin-top: -20px;
+    margin-top: -8px;
 }
 
 #product-painel p{
- font-size:1.2em;
+ font-size:1.1em;
 }
 
 #vista{
@@ -332,12 +347,12 @@ footer li{
 }
 
 #frete p{
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 #cep{
     width: 140px;
-    height: 30px;
+    height: 40px;
     margin: 0px 10px;
     border: 1px solid #F81E27;
 }
@@ -346,10 +361,11 @@ footer li{
     border: 1px solid #F81E27;
     padding: 5px;
     color: #000;
+    font-weight: bolder;
 }
 
 #quantity{
     border: 1px solid #F81E27;
     margin: 0px 10px;
-    width: 30px;
+    width: 40px;
 }
