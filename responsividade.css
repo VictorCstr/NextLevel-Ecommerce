@@ -1,16 +1,116 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-   
+    header{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    header input{
+        width: 85%;
+    }
+ 
+    #links-header{
+        margin: 20px 0px;
+    }
+
+    #navigate-bar ul{
+        flex-wrap:wrap;
+        justify-content: space-around;
+    }
+
+    #navigate-bar li{
+       font-size: 1.25em;
+    }
+
+    #banner, #banner-end{
+        display: none;    
+    }
+
+    #productpage-img{
+        width: 310px;
+    }
+ 
+    #productpage-img, #imgs-secundary{
+        padding-left: 10px;
+    }
+
+    .productsecundary{
+        width: 80px;
+    }
+
+    .productsecundary:hover{
+        width: 280px;
+        transition: 1s;
+    }
+
+    #vista{
+        font-size: 2.2em;
+    }
+
+    #prazo{
+        font-size: 1.3em ;
+    }
+    #frete{
+        flex-direction: column;
+
+    }
+
+    #product-painel{
+        height: 650px;
+    }
+
+    .flex-quemsomos{
+        flex-direction: column;
+    }
+
+    #calc-cep{
+        margin-top: 10px;
+    }
+
+    #quemsomos img{
+        width: 300px;
+    }
+
+    #comentario-contato{
+        width: 280px;
+    }
+
+    #arquivo-contato{
+        width: 145px;
+    }
+
+    #login{
+        width: 320px;
+    }
+
+    footer div{
+        flex-direction: column;
+    }
+
+    .produtos div{
+        max-width: 315px;
+    }
+
+    .description{
+        padding-left: 10px;
+    }
+    .img-section{
+        width: 305px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) and (max-width: 765px) {
+@media only screen and (min-width:601px) and (max-width: 767px) {
     #logo img{
         width: 200px;
     }
 
     header input{
         width: 200px;
+    }
+
+    #banner img{
+        height: 400px;
     }
 
     #links-header a{
@@ -35,6 +135,38 @@
         width: 280px;
     }
 
+    #productpage-img{
+        width: 550px;
+    }
+ 
+    #productpage-img, #imgs-secundary{
+        padding-left: 10px;
+    }
+
+    .productsecundary{
+        width: 150px;
+    }
+
+    .productsecundary:hover{
+        width: 250px;
+        transition: 1s;
+    }
+
+    .flex-quemsomos{
+        flex-direction: column;
+    }
+
+    .description{
+        padding-left: 10px;
+    }
+
+    #comentario-contato{
+        width: 550px;
+    }
+
+    footer div{
+        flex-direction: column;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -64,7 +196,34 @@
         width: 350px;
     }
 
-   
+    #productpage-img{
+        width: 600px;
+    }
+ 
+    #productpage-img, #imgs-secundary{
+        padding-left: 10px;
+    }
+
+    .productsecundary{
+        width: 180px;
+    }
+
+    .productsecundary:hover{
+        width: 300px;
+        transition: 1s;
+    }
+
+    .description{
+        padding-left: 10px;
+    }
+  
+    .flex-quemsomos{
+        flex-direction: column;
+    }
+
+    footer div{
+        flex-direction: column;
+    } 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -86,7 +245,13 @@
         width: 313px;
     }
 
-   
+   #product-painel p{
+       font-size: 1em;
+   }
+
+   .description{
+       padding-left: 10px;
+   }
 
 }
 
