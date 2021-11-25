@@ -16,10 +16,12 @@
     #navigate-bar ul{
         flex-wrap:wrap;
         justify-content: space-around;
+        align-items: center;
     }
 
     #navigate-bar li{
-       font-size: 1.25em;
+       font-size: 1.35em;
+       padding: 15px;
     }
 
     #banner, #banner-end{
@@ -63,8 +65,15 @@
         flex-direction: column;
     }
 
+    #quantity{
+        width: 140px;
+        margin-bottom: 10px;
+    }
+
     #calc-cep{
         margin-top: 10px;
+        margin-left: 10px;
+        width: 140px;
     }
 
     #quemsomos img{
