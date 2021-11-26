@@ -1,3 +1,6 @@
+/*----------------------------------- Formatações padrão e Header ------------------------*/
+
+
 *{
     margin: 0;
     padding: 0;
@@ -105,11 +108,9 @@ section h2{
     margin-bottom: 20px;
 }
 
-
 .img-section{
     width: 250px;
 }
-
 
 .produtos{
     display: flex;
@@ -158,7 +159,6 @@ section h2{
  color: #000;
 }
 
-
 .button-cart a:hover{
  color: #F81E27;
 }
@@ -168,7 +168,7 @@ section h2{
     transition: 2s;
 }
 
-/*---------------------------------- BANNER DEPOIS DO PAINEL PRINCIPAL---------*/
+/*---------------------------------- BANNER DEPOIS DO PAINEL PRINCIPAL----------------------------*/
 
 .flex{
     display: flex;
@@ -186,7 +186,7 @@ margin: 20px 0px;
     min-height: 300px;
 }
 
-/*------------------------------------Rodapé--------------------*/
+/*------------------------------------Rodapé-------------------------------------------*/
 
 footer ul{
     display: flex;
@@ -197,8 +197,7 @@ footer li{
     padding: 20px;
 }
 
-
-/*----------------------------------TELA DE LOGIN----------------------------*/
+/*----------------------------------TELA DE LOGIN-------------------------------*/
 
 #login{
     width: 500px;
@@ -241,8 +240,7 @@ footer li{
     background: -o-linear-gradient(to bottom, #faa600, #f68a00);
 }
 
-
-/*----------------------------------QUEM SOMOS----------------------------*/
+/*----------------------------------QUEM SOMOS E SESSÃO DE CONTATO (MESMA PÁGINA)----------------------------*/
 
 .flex-quemsomos{
     display: flex;
@@ -274,7 +272,6 @@ footer li{
     display: block;
 }
 
-
 #comentario-contato{
     width: 600px;
     height: 20vh;
@@ -302,7 +299,6 @@ footer li{
     display: flex;
     flex-direction: column;
 }
-
 
 #productpage-img{
     width: 500px;
