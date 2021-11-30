@@ -7,7 +7,8 @@ Site feito apenas para uso próprio como portifólio. Se trata de uma empresa fi
 Para visualizar o site:
 https://victorcstr.github.io/NextLevel-Ecommerce/
 
-
+Dispositivos homologados:
+O site opera em todas as dimensões acima de 300px.
 
 
 
