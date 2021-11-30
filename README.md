@@ -4,7 +4,8 @@ Meu site tem como tema o mundo gaming, onde seria vendido computadores, cadeiras
 
 Site feito apenas para uso próprio como portifólio. Se trata de uma empresa fictícia onde todas as imagens e textos não são de exclusividade, são todas retiradas e modificadas de outros sites. 
 
-
+Para visualizar o site:
+https://victorcstr.github.io/NextLevel-Ecommerce/
 
 
 
