@@ -1,21 +1,39 @@
-Foi proposto um desafio pela gama academy onde deveriamos criar um site que constava um catálogo de produtos (basicamente um e-commerce).
-Me inspirei no site da loja que trabalho atualmente (OnPress) e de sites como submarino , mercado livre e kabum.
+<p align="center">
+  <img src="https://github.com/VictorCstr/NextLevel-Ecommerce/blob/main/logo-gama-academy.png" width="50%">
+</p>
+
+<h1 align="center">Desafio #1</h1> <br><br>
+<p align="center"> 
+  <strong>Para visualizar o site clique na imagem</strong>
+  <a href="https://victorcstr.github.io/NextLevel-Ecommerce/"><img src="https://github.com/VictorCstr/NextLevel-Ecommerce/blob/main/smartmockups_kxgoea4z.jpg" width="100%"></a>
+</p>
+
+
+Objetivo deste desafio é praticar as habilidades desenvolvidas durante este primeiro mês:
+   - HTML5;
+   - CSS5;
+   - Responsividade
+
+## :computer: O projeto
+Deveriamos criar um site que constava um catálogo de produtos.
+Me inspirei no site da loja em que eu trabalhava (OnPress) e de sites como submarino , mercado livre e kabum.
 Meu site tem como tema o mundo gaming, onde seria vendido computadores, cadeiras, monitores e etc.
 
-Site feito apenas para uso próprio como portifólio. Se trata de uma empresa fictícia onde todas as imagens e textos não são de exclusividade, são todas retiradas e modificadas de outros sites. 
 
-Para visualizar o site:
-https://victorcstr.github.io/NextLevel-Ecommerce/
+## Dispositivos homologados:
+Os requisitos de responsividade eram: 
+   - desktop(1280px)
+   - tablet(1024px)
+   - celular(375px).
 
-Dispositivos homologados:
-O site opera em todas as dimensões acima de 300px.
-
-
-
+Porém o site opera em todas as dimensões acima de 300px.
 
 
+## :memo: Licença
 
-Créditos:
-(banner black) <a href="https://br.freepik.com/vetores/fundo">Fundo vetor criado por starline - br.freepik.com</a>
-(background) <a href="https://br.freepik.com/vetores/fundo">Fundo vetor criado por coolvector - br.freepik.com</a>
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+## Créditos de imagens:
+(banner black) <a href="https://br.freepik.com/vetores/fundo">Fundo vetor criado por starline - br.freepik.com</a><br>
+(background) <a href="https://br.freepik.com/vetores/fundo">Fundo vetor criado por coolvector - br.freepik.com</a><br>
 Restante das imagens retiradas do google imagens e kabum
