@@ -31,7 +31,7 @@ Porém o site opera em todas as dimensões acima de 300px.
 
 ## :memo: Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/VictorCstr/NextLevel-Ecommerce/blob/main/LICENSE) para mais detalhes.
 
 ## Créditos de imagens:
 (banner black) <a href="https://br.freepik.com/vetores/fundo">Fundo vetor criado por starline - br.freepik.com</a><br>
